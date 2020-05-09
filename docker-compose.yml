@@ -9,3 +9,8 @@ services:
       - 443:443
     volumes:
       - ./src:/usr/local/apache2/htdocs/
+
+networks:
+  default:
+    external:
+      name: DockerHtaccessApache2
