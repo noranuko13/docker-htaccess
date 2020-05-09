@@ -1,4 +1,5 @@
 # docker-htaccess
+- An environment where you can perform simulated editing of .htaccess.
 
 
 ## How to use.
@@ -8,6 +9,11 @@ docker-compose up
 ```
 
 - [https://example.localhost/contents.html](https://example.localhost/contents.html)
+
+
+## Requirement
+- [Docker](https://www.docker.com/)
+- Browser
 
 
 ## Setup
@@ -50,3 +56,27 @@ docker network rm DockerHtaccessApache2
 ```
 
 
+## Tips
+
+### The deleted file is displayed.
+- "Shift + F5".
+
+### Settings in httpd.conf are not reflected.
+- Stop "docker-compose up", and then ...
+```shell script
+docker-compose build --no-cache
+```
+
+- Then restart.
+
+
+## Note
+
+### Final Operation Confirmation Datetime
+- 2020/05/10 06:00
+
+### Operation check environment
+- Microsoft Windows [Version 10.0.18363.778]
+- PowerShell 7.0.0
+- Docker version 19.03.8, build afacb8b
+- Google Chrome 81.0.4044.138（Official Build）
