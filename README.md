@@ -80,3 +80,7 @@ docker-compose build --no-cache
 - PowerShell 7.0.0
 - Docker version 19.03.8, build afacb8b
 - Google Chrome 81.0.4044.138（Official Build）
+
+
+## Licence
+- Released under the [MIT License](https://opensource.org/licenses/MIT).
