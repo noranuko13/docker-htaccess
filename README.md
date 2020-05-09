@@ -15,6 +15,10 @@ docker-compose up
 - [Docker](https://www.docker.com/)
 - Browser
 
+### Cool Things to have.
+- [Google Chrome](https://www.google.com/intl/en/chrome/)
+  - [Suspicious Site Reporter](https://chrome.google.com/webstore/detail/suspicious-site-reporter/jknemblkbdhdcpllfgbfekkdciegfboi)
+
 
 ## Setup
 
