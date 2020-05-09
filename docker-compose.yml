@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  apache2:
+    build: .
+    container_name: docker-htaccess-apache2
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./src:/usr/local/apache2/htdocs/
