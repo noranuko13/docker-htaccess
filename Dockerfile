@@ -18,3 +18,7 @@ RUN sed -i \
         -e 's/^    AllowOverride None$/    AllowOverride All/' \
         -e 's/^    Require all denied$/    Require all granted/' \
         conf/httpd.conf
+
+# Custom domains
+COPY apache2/extra/httpd-ssl.conf /usr/local/apache2/conf/extra/httpd-ssl.conf
+COPY apache2/extra/httpd-vhosts.conf /usr/local/apache2/conf/extra/httpd-vhosts.conf

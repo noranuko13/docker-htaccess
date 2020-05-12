@@ -1,5 +1,6 @@
 # docker-htaccess
 - An environment where you can perform simulated editing of .htaccess.
+  - Especially the [Star Server](https://www.star.ne.jp/) directory structure.
 
 
 ## How to use.
