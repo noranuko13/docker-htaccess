@@ -1,0 +1,9 @@
+# Deny access to .htaccess.
+<files ~ "^\.ht">
+  Require all denied
+</files>
+
+# Hide Index of /.
+Options -Indexes
+
+ErrorDocument 404 https://www.example.localhost/404.html
