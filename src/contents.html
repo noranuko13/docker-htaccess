@@ -3,8 +3,85 @@
 <head>
   <meta charset="utf-8">
   <title>Contents</title>
+  <style>
+    th {
+      text-align: left;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+  </style>
 </head>
 <body>
 <p>Contents</p>
+<p>
+  <a href="http://www.example.localhost/contents.html">
+    http://www.example.localhost/contents.html
+  </a>
+</p>
+
+<p>HTTP/HTTPS Redirect</p>
+<table>
+  <thead>
+  <tr>
+  <tr>
+    <th>www</th>
+    <th>sub</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>
+      <a href="http://www.example.localhost">
+        http://www.example.localhost
+      </a>
+    </td>
+    <td>
+      <a href="http://sub.example.localhost">
+        http://sub.example.localhost
+      </a>
+    </td>
+  </tr>
+  </tbody>
+</table>
+
+<p>Custom domains</p>
+<table>
+  <thead>
+  <tr>
+    <th>www</th>
+    <th>sub</th>
+  </tr>
+  </thead>
+  <tbody>
+  <!-- Sub directory -->
+  <tr>
+    <td>
+      <a href="https://www.example.localhost/www.example.localhost">
+        https://www.example.localhost/www.example.localhost
+      </a>
+    </td>
+    <td>
+      <a href="https://www.example.localhost/sub.example.localhost">
+        https://www.example.localhost/sub.example.localhost
+      </a>
+    </td>
+  </tr>
+  <!-- 404 Not Found -->
+  <tr>
+    <td>
+      <a href="https://www.example.localhost/abc">
+        https://www.example.localhost/abc
+      </a>
+    </td>
+    <td>
+      <a href="https://sub.example.localhost/abc">
+        https://sub.example.localhost/abc
+      </a>
+    </td>
+  </tr>
+  </tbody>
+</table>
 </body>
 </html>
