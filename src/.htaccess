@@ -30,3 +30,6 @@ RewriteCond %{REQUEST_URI} !^/contents.html$
 RewriteCond %{HTTP_HOST} ^www.example.localhost$
 RewriteCond %{REQUEST_URI} !^/www.example.localhost/
 RewriteRule (.*) /www.example.localhost/$1 [L]
+
+# Redirect Subdirectory "www.example.localhost"
+RedirectMatch 404 ^/www.example.localhost$
