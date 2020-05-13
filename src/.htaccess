@@ -6,8 +6,9 @@
 # Hide Index of /.
 Options -Indexes
 
-# SSL/TLS
 RewriteEngine On
+
+# SSL/TLS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
