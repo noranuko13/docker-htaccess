@@ -5,7 +5,6 @@
 
 ## How to use.
 ```shell script
-docker network create DockerHtaccessApache2
 docker-compose up
 ```
 
@@ -26,6 +25,18 @@ docker-compose up
 ### Create Self-signed Certificate
 - [noranuko13/cathand-oreore-certificate](https://github.com/noranuko13/cathand-oreore-certificate)
   - Put server.crt and server.key in the "openssl" directory.
+
+
+### Run Docker container
+- Create the docker network.
+```shell script
+docker network create DockerHtaccessApache2
+```
+
+- Build and start container.
+```shell script
+docker-compose up
+```
 
 
 ### Add the domain to the hosts file.
