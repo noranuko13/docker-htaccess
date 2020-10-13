@@ -89,12 +89,12 @@ docker-compose build --no-cache
 ## Note
 
 ### Final Operation Confirmation Datetime
-- 2020/05/10 06:00
+- 2020/10/13 12:00
 
 ### Operation check environment
-- Microsoft Windows [Version 10.0.18363.778]
-- PowerShell 7.0.0
-- Docker version 19.03.8, build afacb8b
+- Microsoft Windows [Version 10.0.18363.1082]
+- PowerShell 7.0.3
+- Docker version 19.03.13, build 4484c46d9d
 - Google Chrome 81.0.4044.138（Official Build）
 
 
