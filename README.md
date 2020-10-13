@@ -71,6 +71,10 @@ Write-Host "$ip $domain`r`n$ip www.$domain`r`n$ip sub.$domain";
 docker network rm DockerHtaccessApache2
 ```
 
+- Remove the domain from the hosts file.
+
+- Delete this repository.
+
 
 ## Tips
 
