@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is archived. No further updates will be made.
+
+
 # docker-htaccess
 - An environment where you can perform simulated editing of .htaccess.
   - Especially the [Star Server](https://www.star.ne.jp/) directory structure.
